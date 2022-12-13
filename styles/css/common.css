@@ -1,0 +1,75 @@
+.bodygrid {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: -webkit-max-content auto;
+  grid-template-columns: max-content auto;
+  gap: 0;
+}
+.bodygrid .bodygrid--row {
+  grid-row: 1/3;
+}
+
+.nav {
+  background-color: white;
+  padding: 10px;
+}
+.nav .nav__img {
+  height: 40px;
+}
+.nav .nav__section {
+  height: 90%;
+}
+.nav .nav__section ul {
+  height: 70%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav .nav__section ul li {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana;
+}
+.nav .nav__section ul li a {
+  text-decoration: none;
+  color: white;
+}
+.nav .nav__section ul li a:hover {
+  text-decoration: underline;
+}
+
+#menu-items {
+  visibility: hidden;
+  font-size: 1px;
+}
+
+#link-home,
+#link-about,
+#link-techstack,
+#link-projects,
+#link-contact {
+  color: orange;
+}
+
+.link {
+  color: blue;
+  font-weight: bold;
+}
+
+.link--color-black {
+  color: black;
+}
+
+.link--font-xsmall {
+  font-size: 12px;
+}
+
+.link--decoration-none {
+  text-decoration: none;
+}

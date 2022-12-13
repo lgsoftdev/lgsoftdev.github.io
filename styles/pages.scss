@@ -1,0 +1,62 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+
+
+.main {
+    height: 100%;
+    margin-top: $margin_large;
+    margin-right: $margin_large;
+    margin-left: $margin_small;
+
+    @media only screen and (max-width: $media_max_width){
+        margin-top: $margin_medium;
+        margin-right: $margin_small;
+        margin-left: $margin_xsmall;
+    }
+}
+
+.header {
+    margin-bottom: $margin_large;
+
+    @media only screen and (max-width: $media_max_width) {
+        margin-bottom: $margin_small;
+    }
+
+    & .header__h1 {
+        font-family: $font_title;
+    }
+}
+
+.section {
+    @include flex_style(column, flex-start);
+
+    & .section__p--margin-bottom {
+        margin-bottom: $margin_large;
+
+        @media only screen and (max-width: $media_max_width) {
+            margin-bottom: $margin_medium;
+        }
+    }
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(10rem, 100%), 1fr));
+}
+
+
+.grid--template-cols-2 {
+    grid-template-columns: max-content auto;
+
+    & img {
+        @media only screen and (max-width: $media_max_width){
+            width: 75px;
+        }
+    }
+}
+
+.image {
+    height: 75px;
+}

@@ -1,0 +1,5 @@
+//NOTE: function was created for the sole purpose of testing the use of @function
+@function ResizeFont($multiplier){
+    $result: $multiplier * $px_smallest;
+    @return $result;
+}

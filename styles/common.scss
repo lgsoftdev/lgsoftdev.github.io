@@ -1,0 +1,79 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+
+.bodygrid {
+    padding: 0;
+    margin: 0;
+    font-family: $font_content;
+    min-height: 100vh;
+    @include grid_style(max-content auto);
+
+    & .bodygrid--row {
+        grid-row: 1 / 3;
+    }
+}
+
+.nav {
+    background-color: $color_bg_menu_hidden;
+    padding: $margin_xsmall;
+
+    & .nav__img {
+        height: 40px;
+    }
+
+    & .nav__section {   
+        height: 90%;
+
+        & ul {
+            @include ul_style;
+
+            & li {
+                @include li_style;          
+
+                & a {
+                    @include a_style;
+                }
+        
+                & a:hover {
+                    @include a_hover_style;
+                }
+            }
+        }
+    }
+}
+
+#menu-items {
+    visibility: hidden;
+    font-size: $px_smallest;
+}
+
+#link-home,
+#link-about,
+#link-techstack,
+#link-projects,
+#link-contact {
+    color: $color_a_active;
+}
+
+.link {
+    color: $color_a_link_blue;
+    font-weight: bold;
+}
+
+.link--color-black{
+    color: $color_a_link_black;
+}
+
+.link--font-xsmall {
+    font-size: ResizeFont(12);
+}
+
+.link--decoration-none {
+    text-decoration: none;
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+@mixin grid_style($grid_cols, $grid_gap: 0) {
+    display: grid;
+    grid-template-columns: $grid_cols;
+    gap: $grid_gap;
+}
+
+@mixin flex_style($direction, $justify, $align: '') {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+
+    @if $align != ''{
+        align-items: $align;
+    }
+}
+
+@mixin ul_style() {
+    height: 70%;
+    list-style: none;
+    @include flex_style(column, space-evenly, center);
+}
+
+@mixin li_style() {
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    font-family: $font_title;
+}
+
+@mixin a_style {
+    text-decoration: none;
+    color: white;
+}
+
+@mixin a_hover_style {
+    text-decoration: underline;
+}
+
+@mixin margin_right_bottom($right, $bottom) {
+    margin-right: $right;
+    margin-bottom: $bottom;
+}
