@@ -1,6 +1,6 @@
 # Welcome to my Portfolio!
 
-This Porfolio website was built using HTML, CSS, SCSS, and a bit of JavaScript. As I progress through the \_nology course, I may gradually improve on the design and functionalities of this website.
+This <a href="https://lgsoftdev.github.io/" target="blank">Porfolio</a> website was built using HTML, CSS, SCSS, and a bit of JavaScript. As I progress through the \_nology course, I may gradually improve on the design and functionalities of this website.
 
 I chose to keep the website design very simple. I used a lot of white so the site looks clean and uncluttered.
 
