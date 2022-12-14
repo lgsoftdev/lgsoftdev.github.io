@@ -11,7 +11,7 @@ This website tells you a little bit about myself. It will list all the projects 
 ## Content Details
 
 - Landing / Home page
-  - Shows my full name and a short phrase about what I believe in. Links to the various pages are shown by default.
+  - Shows my full name, a short phrase about what I believe in and a hamburger menu to click to show list of menu items.
 - About page
   - Provides a bit of background about why I chose a career in Software Development and what I am currently pursuing.
 - Tech Stack page
