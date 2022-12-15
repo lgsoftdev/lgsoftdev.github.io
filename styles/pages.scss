@@ -2,12 +2,11 @@
 @import "mixins";
 @import "functions";
 
-
 .main {
     height: 100%;
     margin-top: $margin_large;
     margin-right: $margin_large;
-    margin-left: $margin_small;
+    margin-left: $margin_large;
 
     @media only screen and (max-width: $media_max_width){
         margin-top: $margin_medium;
