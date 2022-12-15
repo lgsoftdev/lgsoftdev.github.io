@@ -12,7 +12,11 @@
     @include flex_style(column, center, center);
 
     & img {
-        width: 80%;
+        max-width: 100%;
+        width: 300px;
+        @media only screen and (max-width: $media_max_width){
+            width: 200px;
+        }
         padding: $margin_small;
     }
 }
