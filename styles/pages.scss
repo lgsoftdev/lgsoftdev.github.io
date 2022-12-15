@@ -24,11 +24,14 @@
 
     & .header__h1 {
         font-family: $font_title;
+        letter-spacing: $space_medium;
+        text-decoration: underline;
+        text-decoration-color: $color_a_active;
     }
 }
 
 .section {
-    @include flex_style(column, flex-start);
+    @include flex_style(column, start);
 
     & .section__p--margin-bottom {
         margin-bottom: $margin_large;

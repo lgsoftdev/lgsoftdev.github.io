@@ -22,12 +22,16 @@
 }
 .header .header__h1 {
   font-family: Verdana;
+  letter-spacing: 4px;
+  text-decoration: underline;
+  -webkit-text-decoration-color: orange;
+          text-decoration-color: orange;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: start;
 }
 .section .section__p--margin-bottom {
   margin-bottom: 50px;

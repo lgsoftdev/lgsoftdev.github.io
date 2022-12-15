@@ -1,7 +1,8 @@
 .bodygrid {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 2px;
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -34,11 +35,13 @@
 }
 @media only screen and (max-width: 600px) {
   .nav .nav__img {
+    height: 30px;
     visibility: visible;
   }
 }
 .nav .nav__section {
   height: 90%;
+  max-height: 75vh;
 }
 .nav .nav__section ul {
   height: 70%;

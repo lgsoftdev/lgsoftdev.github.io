@@ -11,6 +11,10 @@
     height: 80%;
     @include flex_style(column, center, center);
 
+    & section {
+        @include flex_style(column, center, center);
+    }
+
     & img {
         max-width: 100%;
         width: 300px;
@@ -23,16 +27,19 @@
 
 .header {
     text-align: center;
-    font-family: $font_title;
+    font-family: $font_title; 
 
     & div:first-child { 
         font-size: $fs_large;
-        font-weight: bold;
+        letter-spacing: $space_large; 
+        text-transform: uppercase;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: $margin_small;
     }
 
     & div:nth-child(2) {
         font-size: $fs_medium;
+        letter-spacing: 3px; 
     }
 
     @media only screen and (max-width: $media_max_width){
@@ -53,6 +60,11 @@
     @media only screen and (max-width: $media_max_width){
         font-size: $fs_xsmall;
         @include margin_right_bottom($margin_small, $margin_small);
+    }
+
+    & :last-child {
+        margin-top: $margin_small;
+        font-size: ResizeFont(12);
     }
 }
 
