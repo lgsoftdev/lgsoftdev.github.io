@@ -27,12 +27,12 @@
 
 .header {
     text-align: center;
-    font-family: $font_title; 
 
     & div:first-child { 
-        font-size: $fs_large;
+        font-family: "Sacramento"; 
+        font-size: $fs_xlarge;
         letter-spacing: $space_large; 
-        text-transform: uppercase;
+        //text-transform: uppercase;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
         margin-bottom: $margin_small;
     }
@@ -44,7 +44,7 @@
 
     @media only screen and (max-width: $media_max_width){
         & div:first-child {
-            font-size: $fs_medium;
+            font-size: $fs_large;
         }
         & div:nth-child(2) {
             font-size: $fs_small;

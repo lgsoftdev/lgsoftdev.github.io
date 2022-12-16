@@ -1,7 +1,7 @@
 .bodygrid {
   padding: 0;
   margin: 0;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Montserrat", sans-serif;
   letter-spacing: 2px;
   min-height: 100vh;
   display: grid;
@@ -55,7 +55,7 @@
   color: white;
   text-align: center;
   font-weight: bold;
-  font-family: Verdana;
+  font-family: "Montserrat", sans-serif;
 }
 .nav .nav__section ul li a {
   text-decoration: none;
