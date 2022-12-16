@@ -22,11 +22,11 @@
 
 .nav {
   background-color: black;
-  padding: 10px;
 }
 @media only screen and (max-width: 600px) {
   .nav {
     background-color: white;
+    padding-right: 10px;
   }
 }
 .nav .nav__img {
@@ -37,6 +37,8 @@
   .nav .nav__img {
     height: 30px;
     visibility: visible;
+    padding-top: 10px;
+    padding-left: 10px;
   }
 }
 .nav .nav__section {

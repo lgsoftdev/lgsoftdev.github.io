@@ -9,9 +9,9 @@
     margin-left: $margin_large;
 
     @media only screen and (max-width: $media_max_width){
-        margin-top: $margin_medium;
-        margin-right: $margin_small;
-        margin-left: $margin_xsmall;
+        margin-top: $margin_small;
+        margin-right: $margin_xsmall;
+        margin-left: 0;
     }
 }
 

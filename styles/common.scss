@@ -25,9 +25,8 @@
     
     @media only screen and (max-width: $media_max_width){
         background-color: $color_bg_menu_hidden;
+        padding-right: $margin_xsmall;
     }
-    
-    padding: $margin_xsmall;
 
     & .nav__img {
         height: 40px;        
@@ -36,6 +35,8 @@
         @media only screen and (max-width: $media_max_width){
             height: 30px;
             visibility: visible;
+            padding-top: $margin_xsmall;
+            padding-left: $margin_xsmall;
         }
     }
 
