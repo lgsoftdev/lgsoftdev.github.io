@@ -12,7 +12,7 @@ The Porfolio website aims to showcase my software development skills and to give
 <br>
 The following MVP requirements were addressed during the development of the Portfolio website:
 
-- A public repository on GitHub for the project.
+- A public repository on GitHub for the project (https://github.com/lgsoftdev/lgsoftdev.github.io).
 - A README.md in the repository with a short intro to the project.
 - SCSS for styling.
 - Website responsiveness.

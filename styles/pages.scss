@@ -62,3 +62,8 @@
 .image {
     height: 75px;
 }
+
+.flexbox {
+    @include flex_style(column, center, center);
+    border: 1px solid black; height: 100px;
+}
