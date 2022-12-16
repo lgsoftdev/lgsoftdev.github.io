@@ -61,12 +61,3 @@
 .image {
   height: 75px;
 }
-
-.flexbox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  height: 100px;
-}
